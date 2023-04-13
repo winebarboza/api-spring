@@ -20,7 +20,7 @@ sh
 git clone https://github.com/winebarboza/api-spring.git
 ```
 2. Importar o projeto no Eclipse
-3. Testar rotas da Api com Software de sua preferência.
+3. Testar rotas da Api com Software de sua preferência, um que recomendo é o Postman.
 
 ## Pré requisitos
 - Para iniciar o desenvolvimento da plataforma é necessário ter a JDK8.
