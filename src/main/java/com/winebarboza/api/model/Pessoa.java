@@ -1,26 +1,26 @@
 package com.winebarboza.api.model;
 
 public class Pessoa {
-    private int id;
+    private Long id;
     private String nome;
     private int idade;
     private char sexo;
     private String telefone;
 
     public Pessoa(int id, String nome, int idade, char sexo, String telefone) {
-        this.id = id;
+        this.id = (long) id;
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
         this.telefone = telefone;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.id = (long) id;
     }
 
     public String getNome() {
