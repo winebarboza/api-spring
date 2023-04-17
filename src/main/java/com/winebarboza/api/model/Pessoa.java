@@ -19,8 +19,8 @@ public class Pessoa {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = (long) id;
+    public void setId(long i) {
+        this.id = (long) i;
     }
 
     public String getNome() {
