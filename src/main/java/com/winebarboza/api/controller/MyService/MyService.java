@@ -27,7 +27,6 @@ public class MyService {
          pessoas.add(new Pessoa(11, "Marcelo", 32, 'M', "(11) 3333-3333"));
     }
     public List<Pessoa> getPessoas() {
-    	
         return pessoas;
     }
    
