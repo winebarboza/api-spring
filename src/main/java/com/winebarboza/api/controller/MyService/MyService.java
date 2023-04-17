@@ -14,6 +14,7 @@ public class MyService {
     private List<Pessoa> pessoas = new ArrayList<>();
     @PostConstruct
     public void todasPessoas() {
+    	//iniciando lista
     	 pessoas.add(new Pessoa(1, "João", 30, 'M', "(11) 1111-1111"));
          pessoas.add(new Pessoa(2, "Maria", 25, 'F', "(11) 2222-2222"));
          pessoas.add(new Pessoa(3, "Pedro", 40, 'M', "(11) 3333-3333"));
